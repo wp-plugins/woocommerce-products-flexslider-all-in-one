@@ -18,7 +18,7 @@ Woocommerce Products FlexSlider all in one is a widget and shortcode generator t
 * English (en_EN)
 * Polish (pl_PL)
 
-For more information, check out widget page at [Teastudio.pl](http://www.teastudio.pl/produkt/woocommerce-products-flexslider-all-in-one/).
+For more information, check out plugin page at [Teastudio.pl](http://www.teastudio.pl/produkt/woocommerce-products-flexslider-all-in-one/).
 
 I will be grateful for opinions and reviews.
 
