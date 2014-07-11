@@ -1,4 +1,4 @@
-=== Woocommerce Products Flexslider all in one ===
+=== WooCommerce Products Flexslider all in one ===
 Contributors: teastudio.pl
 Donate link: http://www.teastudio.pl/
 Tags: slider, flexslider, woocommerce flexslider, woocommerce slider, products slider, woocommerce products
