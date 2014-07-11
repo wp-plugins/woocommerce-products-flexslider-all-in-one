@@ -8,12 +8,11 @@ License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Woocommerce Products FlexSlider all in one is a widget and shortcode generator to show new, featured or popular products in Flexslider
-
-**Requires: Woocommerce 2.0.x**
-
 == Description ==
 
 **Woocommerce Products Flexslider all in one** will allow you to create custom shortcode, or add widget that display Flexslider of Woocommerce products (new, featured or popular).
+
+**Requires: Woocommerce 2.0.x**
 
 = Now available in the following Languages = 
 
