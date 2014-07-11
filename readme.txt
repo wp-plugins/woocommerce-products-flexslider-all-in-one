@@ -12,7 +12,9 @@ WooCommerce Products FlexSlider all in one is a widget and shortcode generator t
 
 **WooCommerce Products Flexslider all in one** will allow you to create custom shortcode, or add widget that display Flexslider of WooCommerce products (new, featured or popular).
 
-**Requires: WooCommerce 2.0.x**
+= Requires =
+*WooCommerce 2.0.x
+*Bootstrap 3.0.x
 
 = Now available in the following Languages = 
 
@@ -32,7 +34,7 @@ I will be grateful for opinions and reviews.
 
 1. Upload plugin either via the your's Wordpress installation, or by uploading to the /wp-content/plugins/ by FTP client
 2. Install the plugin through the 'Plugins' menu in WordPress.
-3. Activate Woocommerce Products Flexslider all in one in the "Plugins" using the "Activate" link.
+3. Activate WooCommerce Products Flexslider all in one in the "Plugins" using the "Activate" link.
 
 == Frequently Asked Questions ==
 Do not hesitate to ask any questions.
@@ -43,7 +45,8 @@ Do not hesitate to ask any questions.
 3. WYSIWYG button
 
 == Changelog ==
-
+= 1.0.1 =
+change of title
 = 1.0.0 =
 Initial release
 

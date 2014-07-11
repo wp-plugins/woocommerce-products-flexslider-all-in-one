@@ -7,12 +7,12 @@ License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 
-class WoocommerceProductsFlexsliderAllInOneShortcodeDecode 
+class WooCommerceProductsFlexsliderAllInOneShortcodeDecode 
 {	
     public function initialize($atts, $content = null, $code = "") 
     {		
-        WoocommerceProductsSliderGenerator::generate($atts);
+        WooCommerceProductsSliderGenerator::generate($atts);
     }
 }
-add_shortcode("woo_products_flexslider_all_in_one", array("WoocommerceProductsFlexsliderAllInOneShortcodeDecode", "initialize"));
+add_shortcode("woo_products_flexslider_all_in_one", array("WooCommerceProductsFlexsliderAllInOneShortcodeDecode", "initialize"));
 ?>
