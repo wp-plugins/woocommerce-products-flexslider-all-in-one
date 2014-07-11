@@ -13,8 +13,8 @@ WooCommerce Products FlexSlider all in one is a widget and shortcode generator t
 **WooCommerce Products Flexslider all in one** will allow you to create custom shortcode, or add widget that display Flexslider of WooCommerce products (new, featured or popular).
 
 = Requires =
-*WooCommerce 2.0.x
-*Bootstrap 3.0.x
+* WooCommerce 2.0.x
+* Bootstrap 3.0.x
 
 = Now available in the following Languages = 
 
