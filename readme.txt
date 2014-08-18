@@ -30,7 +30,7 @@ I will be grateful for opinions and reviews.
 
 * English - by Marcin Gierada
 * Polish - by Marcin Gierada
-* Serbian - by [Borisa Djuraskovic](mailto:borisad@webhostinghub.com) and [Ogi Djuraskovic] (http://firstsiteguide.com/)
+* Serbian - by [Borisa Djuraskovic](mailto:borisad@webhostinghub.com) and [Ogi Djuraskovic](http://firstsiteguide.com/)
 
 == Installation ==
 
