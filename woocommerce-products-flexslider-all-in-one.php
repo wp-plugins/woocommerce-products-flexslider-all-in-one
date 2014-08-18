@@ -3,7 +3,7 @@
 Plugin Name: WooCommerce Products FlexSlider all in one
 Plugin URI: http://www.teastudio.pl/produkt/woocommerce-products-flexslider-all-in-one/
 Description: WooCommerce Products FlexSlider all in one is a widget to show new, featured or popular products in Flexslider
-Version: 1.0.1
+Version: 1.0.2
 Author: Marcin Gierada
 Author URI: http://www.teastudio.pl/
 Author Email: m.gierada@teastudio.pl

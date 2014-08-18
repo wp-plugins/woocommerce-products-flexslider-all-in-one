@@ -20,6 +20,7 @@ WooCommerce Products FlexSlider all in one is a widget and shortcode generator t
 
 * English (en_EN)
 * Polish (pl_PL)
+* Serbian (sr_RS)
 
 For more information, check out plugin page at [Teastudio.pl](http://www.teastudio.pl/produkt/woocommerce-products-flexslider-all-in-one/).
 
@@ -29,6 +30,7 @@ I will be grateful for opinions and reviews.
 
 * English - by Marcin Gierada
 * Polish - by Marcin Gierada
+* Serbian - by [Borisa Djuraskovic](mailto:borisad@webhostinghub.com) and [Ogi Djuraskovic] (http://firstsiteguide.com/)
 
 == Installation ==
 
@@ -45,6 +47,8 @@ Do not hesitate to ask any questions.
 3. WYSIWYG button
 
 == Changelog ==
+= 1.0.2 =
+new translate added - Serbian
 = 1.0.1 =
 change of title
 = 1.0.0 =

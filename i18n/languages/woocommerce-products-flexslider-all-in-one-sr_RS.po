@@ -1,0 +1,360 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woocommerce Products FlexSlider All in One v1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-30 13:41+0100\n"
+"PO-Revision-Date: 2014-08-13 10:24+0100\n"
+"Last-Translator: Borisa Djuraskovic <borisad@webhostinghub.com>\n"
+"Language-Team:  <info@teastudio.pl>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ woocommerce-products-flexslider-all-in-one
+#: shortcode-generator.php:151
+#: woocommerce-products-flexslider-all-in-one.php:161
+msgid "Show"
+msgstr "Prikaži"
+
+# @ woocommerce-products-flexslider-all-in-one
+#: shortcode-generator.php:154
+#: woocommerce-products-flexslider-all-in-one.php:164
+msgid "Template"
+msgstr "Template"
+
+# @ woocommerce-products-flexslider-all-in-one
+#: shortcode-generator.php:170
+#: woocommerce-products-flexslider-all-in-one.php:195
+msgid "Ordering"
+msgstr "Naručivanje"
+
+# @ woocommerce-products-flexslider-all-in-one
+#: shortcode-generator.php:173
+#: woocommerce-products-flexslider-all-in-one.php:199
+msgid "Ascending"
+msgstr "Rastuće"
+
+# @ woocommerce-products-flexslider-all-in-one
+#: shortcode-generator.php:174
+#: woocommerce-products-flexslider-all-in-one.php:200
+msgid "Descending"
+msgstr "Opadajuće"
+
+# @ woocommerce-products-flexslider-all-in-one
+#: shortcode-generator.php:179
+#: woocommerce-products-flexslider-all-in-one.php:210
+msgid "Category IDs"
+msgstr "IDijevi kategorije"
+
+# @ woocommerce-products-flexslider-all-in-one
+#: shortcode-generator.php:183
+#: woocommerce-products-flexslider-all-in-one.php:213
+msgid "Please enter Category IDs with comma seperated"
+msgstr "Unesite IDijeve kategorije sa odvojenim zarezima"
+
+# @ woocommerce-products-flexslider-all-in-one
+#: shortcode-generator.php:187
+#: woocommerce-products-flexslider-all-in-one.php:217
+msgid "All items"
+msgstr "Sve stavke"
+
+# @ woocommerce-products-flexslider-all-in-one
+#: shortcode-generator.php:193
+#: woocommerce-products-flexslider-all-in-one.php:222
+msgid "Items to show"
+msgstr "Stavke za prikazati"
+
+# @ default
+#: shortcode-generator.php:196
+#: woocommerce-products-flexslider-all-in-one.php:225
+msgid "1"
+msgstr "1"
+
+# @ default
+#: shortcode-generator.php:197
+#: woocommerce-products-flexslider-all-in-one.php:226
+msgid "2"
+msgstr "2"
+
+# @ default
+#: shortcode-generator.php:198
+#: woocommerce-products-flexslider-all-in-one.php:227
+msgid "3"
+msgstr "3"
+
+# @ default
+#: shortcode-generator.php:199
+#: woocommerce-products-flexslider-all-in-one.php:228
+msgid "4"
+msgstr "4"
+
+# @ default
+#: shortcode-generator.php:200
+#: woocommerce-products-flexslider-all-in-one.php:229
+msgid "5"
+msgstr "5"
+
+# @ default
+#: shortcode-generator.php:201
+#: woocommerce-products-flexslider-all-in-one.php:230
+msgid "6"
+msgstr "6"
+
+# @ woocommerce-products-flexslider-all-in-one
+#: shortcode-generator.php:210
+#: woocommerce-products-flexslider-all-in-one.php:240
+msgid "Diplay options"
+msgstr "Prikaži opciju"
+
+# @ woocommerce-products-flexslider-all-in-one
+#: shortcode-generator.php:214
+#: woocommerce-products-flexslider-all-in-one.php:244
+msgid "Show title"
+msgstr "Prikaži naslov"
+
+# @ woocommerce-products-flexslider-all-in-one
+#: shortcode-generator.php:220
+#: woocommerce-products-flexslider-all-in-one.php:248
+msgid "Show price"
+msgstr "Prikaži cenu"
+
+# @ woocommerce-products-flexslider-all-in-one
+#: shortcode-generator.php:226
+#: woocommerce-products-flexslider-all-in-one.php:252
+msgid "Show description"
+msgstr "Prikaži opis"
+
+# @ woocommerce-products-flexslider-all-in-one
+#: shortcode-generator.php:232
+#: woocommerce-products-flexslider-all-in-one.php:256
+msgid "Show more button"
+msgstr "Prikaži još dugmadi"
+
+# @ woocommerce-products-flexslider-all-in-one
+#: shortcode-generator.php:238
+#: woocommerce-products-flexslider-all-in-one.php:260
+msgid "Show more items button"
+msgstr "Prikaži još dugmadi sa stavkama"
+
+# @ woocommerce-products-flexslider-all-in-one
+#: shortcode-generator.php:246
+#: woocommerce-products-flexslider-all-in-one.php:263
+msgid "Image source"
+msgstr "Source slike"
+
+# @ default
+#: shortcode-generator.php:249
+#: woocommerce-products-flexslider-all-in-one.php:267
+msgid "Thumbnail"
+msgstr "Thumbnail"
+
+# @ default
+#: shortcode-generator.php:250
+#: woocommerce-products-flexslider-all-in-one.php:268
+msgid "Medium"
+msgstr "Srednje"
+
+# @ default
+#: shortcode-generator.php:251
+#: woocommerce-products-flexslider-all-in-one.php:269
+msgid "Large"
+msgstr "Veliko"
+
+# @ default
+#: shortcode-generator.php:252
+#: woocommerce-products-flexslider-all-in-one.php:270
+msgid "Full"
+msgstr "Sve"
+
+# @ woocommerce-products-flexslider-all-in-one
+#: shortcode-generator.php:257
+#: woocommerce-products-flexslider-all-in-one.php:279
+msgid "Image height"
+msgstr "Visina slike"
+
+# @ woocommerce-products-flexslider-all-in-one
+#: shortcode-generator.php:263
+#: woocommerce-products-flexslider-all-in-one.php:284
+msgid "Image width"
+msgstr "Širina slike"
+
+# @ woocommerce-products-flexslider-all-in-one
+#: shortcode-generator.php:269
+#: woocommerce-products-flexslider-all-in-one.php:290
+msgid "Arrows navigation"
+msgstr "Navigacija strelicama"
+
+# @ woocommerce-products-flexslider-all-in-one
+#: shortcode-generator.php:279
+#: woocommerce-products-flexslider-all-in-one.php:295
+msgid "Animation options"
+msgstr "Opcije animacije"
+
+# @ woocommerce-products-flexslider-all-in-one
+#: shortcode-generator.php:283
+#: woocommerce-products-flexslider-all-in-one.php:299
+msgid "Auto start"
+msgstr "Auto start"
+
+# @ woocommerce-products-flexslider-all-in-one
+#: shortcode-generator.php:289
+#: woocommerce-products-flexslider-all-in-one.php:303
+msgid "Animation loop"
+msgstr "Loop animacije"
+
+# @ woocommerce-products-flexslider-all-in-one
+#: shortcode-generator.php:295
+#: woocommerce-products-flexslider-all-in-one.php:307
+msgid "Animation pause on hover"
+msgstr "Pauza animacija na lebdenju"
+
+# @ woocommerce-products-flexslider-all-in-one
+#: shortcode-generator.php:301
+#: woocommerce-products-flexslider-all-in-one.php:310
+#: woocommerce-products-flexslider-all-in-one.php:336
+msgid "Animation"
+msgstr "Animacija"
+
+# @ woocommerce-products-flexslider-all-in-one
+#: shortcode-generator.php:304
+#: woocommerce-products-flexslider-all-in-one.php:314
+msgid "Fade"
+msgstr "Nestane"
+
+# @ woocommerce-products-flexslider-all-in-one
+#: shortcode-generator.php:305
+#: woocommerce-products-flexslider-all-in-one.php:315
+msgid "Slide"
+msgstr "Slajd"
+
+# @ woocommerce-products-flexslider-all-in-one
+#: shortcode-generator.php:310
+#: woocommerce-products-flexslider-all-in-one.php:324
+msgid "Animation duration"
+msgstr "Trajanje animacije"
+
+# @ woocommerce-products-flexslider-all-in-one
+#: shortcode-generator.php:320
+#: woocommerce-products-flexslider-all-in-one.php:331
+msgid "Slide speed"
+msgstr "Brzina slajda"
+
+# @ woocommerce-products-flexslider-all-in-one
+#: shortcode-generator.php:326
+msgid "Orientation"
+msgstr "Orijentacija"
+
+# @ woocommerce-products-flexslider-all-in-one
+#: shortcode-generator.php:329
+#: woocommerce-products-flexslider-all-in-one.php:340
+msgid "Horizontal"
+msgstr "Horizontalno"
+
+# @ woocommerce-products-flexslider-all-in-one
+#: shortcode-generator.php:330
+#: woocommerce-products-flexslider-all-in-one.php:341
+msgid "Vertical"
+msgstr "Vertikalno"
+
+# @ woocommerce-products-flexslider-all-in-one
+#: shortcode-generator.php:341
+msgid "Insert Shortcode"
+msgstr "Unesi skraćeni kod"
+
+# @ woocommerce-products-flexslider-all-in-one
+#: slider-generator.class.php:162
+msgid "From"
+msgstr "Od"
+
+# @ woocommerce-products-flexslider-all-in-one
+#: slider-generator.class.php:187
+msgid "Download"
+msgstr "Download"
+
+# @ woocommerce-products-flexslider-all-in-one
+#: slider-generator.class.php:187
+msgid "<i class=\"icon-download-alt icon-\"></i> download"
+msgstr "<i class=\"icon-download-alt icon-\"></i> download"
+
+# @ woocommerce-products-flexslider-all-in-one
+#: slider-generator.class.php:189 slider-generator.class.php:229
+msgid "Show item"
+msgstr "Prikaži stavkU"
+
+# @ woocommerce-products-flexslider-all-in-one
+#: slider-generator.class.php:189
+msgid "show item"
+msgstr "prikaži stavku"
+
+# @ woocommerce-products-flexslider-all-in-one
+#: slider-generator.class.php:193
+msgid "Show more items"
+msgstr "Prikaži još stavki"
+
+# @ woocommerce-products-flexslider-all-in-one
+#: slider-generator.class.php:193
+msgid "show more items"
+msgstr "prikaži još stavki"
+
+# @ woocommerce-products-flexslider-all-in-one
+#: slider-generator.class.php:278
+msgid "Previous"
+msgstr "Prethodno"
+
+# @ woocommerce-products-flexslider-all-in-one
+#: slider-generator.class.php:279
+msgid "Next"
+msgstr "Sledeće"
+
+# @ woocommerce-products-flexslider-all-in-one
+#: slider-generator.class.php:280
+msgid "Pause"
+msgstr "Pauza"
+
+# @ woocommerce-products-flexslider-all-in-one
+#: slider-generator.class.php:281
+msgid "Play"
+msgstr "Pusti"
+
+# @ woocommerce-products-flexslider-all-in-one
+#: woocommerce-products-flexslider-all-in-one.php:105
+msgid "Show new, featured or popular products in FlexSlider"
+msgstr "Prikaži nove, trenitne ili popularne produkte u FlexSlider"
+
+#: woocommerce-products-flexslider-all-in-one.php:106
+msgid "WooCommerce Products FlexSlider All In One"
+msgstr "WooCommerce produkti FlexSlider sve u jednom"
+
+# @ default
+#: woocommerce-products-flexslider-all-in-one.php:156
+msgid "Title"
+msgstr "Naslov"
+
+# @ woocommerce-products-flexslider-all-in-one
+#: woocommerce-products-flexslider-all-in-one.php:179
+msgid "Show only"
+msgstr "Samo prikaži"
+
+# @ woocommerce-products-flexslider-all-in-one
+#: woocommerce-products-flexslider-all-in-one.php:183
+msgid "Newset"
+msgstr "Najnovije"
+
+# @ woocommerce-products-flexslider-all-in-one
+#: woocommerce-products-flexslider-all-in-one.php:184
+msgid "Popular"
+msgstr "Popularno"
+
+# @ woocommerce-products-flexslider-all-in-one
+#: woocommerce-products-flexslider-all-in-one.php:185
+msgid "Featured"
+msgstr "Trenutno"
