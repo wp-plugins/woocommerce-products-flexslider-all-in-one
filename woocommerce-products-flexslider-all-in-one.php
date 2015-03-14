@@ -3,7 +3,7 @@
 Plugin Name: WooCommerce Products FlexSlider all in one
 Plugin URI: http://www.teastudio.pl/produkt/woocommerce-products-flexslider-all-in-one/
 Description: WooCommerce Products FlexSlider all in one is a widget to show new, featured or popular products in Flexslider
-Version: 1.0.2
+Version: 1.0.3
 Author: Marcin Gierada
 Author URI: http://www.teastudio.pl/
 Author Email: m.gierada@teastudio.pl
@@ -209,16 +209,16 @@ jQuery(function() {
     </p>
 
     <p>
-        <label for="<?php echo $this->get_field_id("show_only"); ?>"><?php _e('Show only', 'woocommerce-products-flexslider-all-in-one'); ?>:</label>
+        <label for="<?php echo $this->get_field_id("show"); ?>"><?php _e('Show only', 'woocommerce-products-flexslider-all-in-one'); ?>:</label>
         <br />
-        <select name="<?php echo $this->get_field_name("show_only"); ?>" id="<?php echo $this->get_field_id("show_only"); ?>" class="select">
+        <select name="<?php echo $this->get_field_name("show"); ?>" id="<?php echo $this->get_field_id("show"); ?>" class="select">
           <?php            
             $show_list = array('newest' => __("Newset", 'woocommerce-products-flexslider-all-in-one'),
                                'popular' => __("Popular", 'woocommerce-products-flexslider-all-in-one'),
                                'featured' => __("Featured", 'woocommerce-products-flexslider-all-in-one')
                               );
             foreach($show_list as $key => $list) {
-              echo "<option value=\"".$key."\" ". (esc_attr($instance["show_only"]) == $key ? 'selected="selected"' : null) .">".$list."</option>";
+              echo "<option value=\"".$key."\" ". (esc_attr($instance["show"]) == $key ? 'selected="selected"' : null) .">".$list."</option>";
             }
           ?>
         </select>
