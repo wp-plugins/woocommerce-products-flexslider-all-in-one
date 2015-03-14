@@ -245,7 +245,7 @@ class WooCommerceProductsSliderGenerator {
         $out .= '</ul>';
         $out .= '</div>';
 
-        echo $out;
+        return $out;
     }
     
     static function flexslider($params = array()) 

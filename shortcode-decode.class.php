@@ -11,7 +11,7 @@ class WooCommerceProductsFlexsliderAllInOneShortcodeDecode
 {	
     public function initialize($atts, $content = null, $code = "") 
     {		
-        WooCommerceProductsSliderGenerator::generate($atts);
+        return WooCommerceProductsSliderGenerator::generate($atts);
     }
 }
 add_shortcode("woo_products_flexslider_all_in_one", array("WooCommerceProductsFlexsliderAllInOneShortcodeDecode", "initialize"));
