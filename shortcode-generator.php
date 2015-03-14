@@ -21,6 +21,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
        * show
        */
       shortcode += ' template="'+jQuery('#template').val()+'"';
+      shortcode += ' show="'+jQuery('#show').val()+'"';
       shortcode += ' ordering="'+jQuery('#ordering').val()+'"';
       
       if(jQuery('#categories').val() != "")
@@ -152,6 +153,17 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
                         </select>	
                     </td>
                 </tr>  
+                
+                <tr>
+                    <td align="left"><?php _e('Show only', 'woocommerce-products-flexslider-all-in-one'); ?>:</td>
+                    <td>
+                        <select name="show" id="show" class="select">
+                            <option value="newest"><?php _e("Newset", 'woocommerce-products-flexslider-all-in-one') ?></option>
+                            <option value="popular"><?php _e("Popular", 'woocommerce-products-flexslider-all-in-one') ?></option>  
+                            <option value="featured"><?php _e("Featured", 'woocommerce-products-flexslider-all-in-one') ?></option>
+                        </select>	
+                    </td>
+                </tr>               
 
                 <tr>
                     <td align="left"><?php _e('Ordering', 'woocommerce-products-flexslider-all-in-one'); ?>:</td>

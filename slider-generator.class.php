@@ -70,7 +70,7 @@ class WooCommerceProductsSliderGenerator {
         wp_print_styles('woo_products_flexslider_all_in_one-flexslider-style-custom');
 
         //vertical style    
-        if($params['slide_direction'] == "vertical") 
+        if(array_key_exists('slide_direction', $params) && $params['slide_direction'] == "vertical") 
             $direction = ' vertical';
         else
             $direction = null;
@@ -86,12 +86,12 @@ class WooCommerceProductsSliderGenerator {
                            'post_status'    =>  'publish',
                            'order'          =>  $params['ordering'],
                            'posts_per_page' =>  $params['all_items'],
-                           'no_found_rows'  =>  1,
-                           'meta_value' => 'yes', 
+                           //'no_found_rows'  =>  1,
+                           //'meta_value' => 'yes', 
                            'post__not_in' =>  array($post->ID) //exclude current post
                            );
 
-        if($params['categories'] != "")
+        if(array_key_exists('categories', $params) && $params['categories'] != "")
         {
             $sql_array['tax_query'] = array(array('taxonomy'  =>  'product_cat',
                                                   'field'     =>  'id',
@@ -179,9 +179,9 @@ class WooCommerceProductsSliderGenerator {
                 if($params['show_more_button'] == "true")
                 {          
                     if($product_obj->is_downloadable())
-                        $buttons .= '<a href="'.$prod_url.'" class="woocommerce-products-flexslider-all-in-one-more-button btn btn-primary" title="'.__('Download', 'woocommerce-products-flexslider-all-in-one').': '.$post->post->post_title.'">'.__('<i class="icon-download-alt icon-"></i> download', 'woocommerce-products-flexslider-all-in-one').'</a>';
+                        $buttons .= '<a href="'.$prod_url.'" class="woocommerce-products-flexslider-all-in-one-more-button btn btn-primary" title="'.__('Download', 'woocommerce-products-flexslider-all-in-one').': '.$product_obj->post->post_title.'">'.__('<i class="icon-download-alt icon-"></i> download', 'woocommerce-products-flexslider-all-in-one').'</a>';
                     else
-                        $buttons .= '<a href="'.$prod_url.'" class="woocommerce-products-flexslider-all-in-one-more-button btn btn-primary" title="'.__('Show item', 'woocommerce-products-flexslider-all-in-one').': '.$post->post->post_title.'">'.__('show item', 'woocommerce-products-flexslider-all-in-one').'</a>';
+                        $buttons .= '<a href="'.$prod_url.'" class="woocommerce-products-flexslider-all-in-one-more-button btn btn-primary" title="'.__('Show item', 'woocommerce-products-flexslider-all-in-one').': '.$product_obj->post->post_title.'">'.__('show item', 'woocommerce-products-flexslider-all-in-one').'</a>';
                 }
 
                 if($params['show_more_items_button'] == "true")
@@ -261,8 +261,8 @@ class WooCommerceProductsSliderGenerator {
                         animation: "'.$params['animation'].'",
                         controlsContainer: ".flex-container",
                         slideshow: '.$params['auto_start'].',
-                        slideDirection: "'.$params['slide_direction'].'",
-                        slideshowSpeed: '.$params['slide_speed'].',
+                        slideDirection: "'. ( array_key_exists('slide_direction', $params) ? $params['slide_direction'] : null ).'", 
+                        slideshowSpeed: '.( array_key_exists('slide_speed', $params) ? $params['slide_speed'] : 0 ).', 
                         animationDuration: '.$params['animation_duration'].',
                         directionNav: '.$params['navigation'].',
                         controlNav: false,

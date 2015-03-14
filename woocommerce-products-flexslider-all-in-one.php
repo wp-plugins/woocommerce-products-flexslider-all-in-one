@@ -3,7 +3,7 @@
 Plugin Name: WooCommerce Products FlexSlider all in one
 Plugin URI: http://www.teastudio.pl/produkt/woocommerce-products-flexslider-all-in-one/
 Description: WooCommerce Products FlexSlider all in one is a widget to show new, featured or popular products in Flexslider
-Version: 1.0.3
+Version: 1.0.4
 Author: Marcin Gierada
 Author URI: http://www.teastudio.pl/
 Author Email: m.gierada@teastudio.pl
@@ -187,7 +187,7 @@ jQuery(function() {
 </script>
     <p>
         <label for="<?php echo $this->get_field_id("title"); ?>"><?php _e('Title'); ?>:</label>        
-        <input class="widefat" id="<?php echo $this->get_field_id("title"); ?>" name="<?php echo $this->get_field_name("title"); ?>" type="text" value="<?php echo esc_attr($instance["title"]); ?>" />
+        <input class="widefat" id="<?php echo $this->get_field_id("title"); ?>" name="<?php echo $this->get_field_name("title"); ?>" type="text" value="<?php echo esc_attr(array_key_exists('title', $instance) ? $instance["title"] : ''); ?>" />
     </p>
 
     <p>
@@ -241,14 +241,14 @@ jQuery(function() {
     
     <p>
         <label for="<?php echo $this->get_field_id("categories"); ?>"><?php _e('Category IDs', 'woocommerce-products-flexslider-all-in-one'); ?>:</label>
-        <input class="widefat" id="<?php echo $this->get_field_id("categories"); ?>" name="<?php echo $this->get_field_name("categories"); ?>" type="text" value="<?php echo esc_attr($instance["categories"]); ?>" />
+        <input class="widefat" id="<?php echo $this->get_field_id("categories"); ?>" name="<?php echo $this->get_field_name("categories"); ?>" type="text" value="<?php echo $instance["categories"]; ?>" />
         <br />
         <small><?php _e('Please enter Category IDs with comma seperated', 'woocommerce-products-flexslider-all-in-one') ?></small>
     </p>
     
     <p>
-        <label for="<?php echo $this->get_field_id("all_items"); ?>"><?php _e('All items', 'woocommerce-products-flexslider-all-in-one'); ?>:</label>
-        <input size="5" id="<?php echo $this->get_field_id("all_items"); ?>" name="<?php echo $this->get_field_name("all_items"); ?>" type="text" value="<?php echo esc_attr($instance["all_items"]); ?>" />
+        <label for="<?php echo $this->get_field_id("all_items"); ?>"><?php _e('All items', 'woocommerce-products-flexslider-all-in-one'); ?>:</label>        
+        <input size="5" id="<?php echo $this->get_field_id("all_items"); ?>" name="<?php echo $this->get_field_name("all_items"); ?>" type="text" value="<?php echo $instance["all_items"]; ?>" />
     </p>  
     
     <p>
@@ -273,23 +273,23 @@ jQuery(function() {
         <strong>--- <?php _e('Diplay options', 'woocommerce-products-flexslider-all-in-one') ?> ---</strong>
     </p>  
     <p>  
-        <input type="checkbox" class="checkbox" id="<?php echo $this->get_field_id("show_title"); ?>" name="<?php echo $this->get_field_name("show_title"); ?>" <?php checked( (bool) $instance["show_title"], true ); ?> value="1" />
+        <input type="checkbox" class="checkbox" id="<?php echo $this->get_field_id("show_title"); ?>" name="<?php echo $this->get_field_name("show_title"); ?>" <?php array_key_exists('show_title', $instance) ? checked( (bool) $instance["show_title"], true ) : null; ?> value="1" />
         <label for="<?php echo $this->get_field_id("show_title"); ?>"><?php _e('Show title', 'woocommerce-products-flexslider-all-in-one'); ?></label>
     </p>
     <p>
-        <input type="checkbox" class="checkbox" id="<?php echo $this->get_field_id("show_price"); ?>" name="<?php echo $this->get_field_name("show_price"); ?>" <?php checked( (bool) $instance["show_price"], true ); ?> value="1" />
+        <input type="checkbox" class="checkbox" id="<?php echo $this->get_field_id("show_price"); ?>" name="<?php echo $this->get_field_name("show_price"); ?>" <?php array_key_exists('show_price', $instance) ? checked( (bool) $instance["show_price"], true ): null; ?> value="1" />
         <label for="<?php echo $this->get_field_id("show_price"); ?>"><?php _e('Show price', 'woocommerce-products-flexslider-all-in-one'); ?></label>
     </p>    
     <p>
-        <input type="checkbox" class="checkbox" id="<?php echo $this->get_field_id("show_description"); ?>" name="<?php echo $this->get_field_name("show_description"); ?>" <?php checked( (bool) $instance["show_description"], true ); ?> value="1" />
+        <input type="checkbox" class="checkbox" id="<?php echo $this->get_field_id("show_description"); ?>" name="<?php echo $this->get_field_name("show_description"); ?>" <?php array_key_exists('show_description', $instance) ? checked( (bool) $instance["show_description"], true ): null; ?> value="1" />
         <label for="<?php echo $this->get_field_id("show_description"); ?>"><?php _e('Show description', 'woocommerce-products-flexslider-all-in-one'); ?></label>
     </p>    
     <p>
-        <input type="checkbox" class="checkbox" id="<?php echo $this->get_field_id("show_more_button"); ?>" name="<?php echo $this->get_field_name("show_more_button"); ?>" <?php checked( (bool) $instance["show_more_button"], true ); ?> value="1" />
+        <input type="checkbox" class="checkbox" id="<?php echo $this->get_field_id("show_more_button"); ?>" name="<?php echo $this->get_field_name("show_more_button"); ?>" <?php array_key_exists('show_more_button', $instance) ? checked( (bool) $instance["show_more_button"], true ) : null; ?> value="1" />
         <label for="<?php echo $this->get_field_id("show_more_button"); ?>"><?php _e('Show more button', 'woocommerce-products-flexslider-all-in-one'); ?></label>
     </p> 
     <p>
-        <input type="checkbox" class="checkbox" id="<?php echo $this->get_field_id("show_more_items_button"); ?>" name="<?php echo $this->get_field_name("show_more_items_button"); ?>" <?php checked( (bool) $instance["show_more_items_button"], true ); ?> value="1" />
+        <input type="checkbox" class="checkbox" id="<?php echo $this->get_field_id("show_more_items_button"); ?>" name="<?php echo $this->get_field_name("show_more_items_button"); ?>" <?php array_key_exists('show_more_items_button', $instance) ? checked( (bool) $instance["show_more_items_button"], true ) : null; ?> value="1" />
         <label for="<?php echo $this->get_field_id("show_more_items_button"); ?>"><?php _e('Show more items button', 'woocommerce-products-flexslider-all-in-one'); ?></label>
     </p>     
     <p>
@@ -319,7 +319,7 @@ jQuery(function() {
         <input size="10" id="<?php echo $this->get_field_id("image_width"); ?>" name="<?php echo $this->get_field_name("image_width"); ?>" type="text" value="<?php echo esc_attr($instance["image_width"]); ?>" />%
     </p>      
     <p>
-        <input type="checkbox" class="checkbox" id="<?php echo $this->get_field_id("navigation"); ?>" name="<?php echo $this->get_field_name("navigation"); ?>" <?php checked( (bool) $instance["navigation"], true ); ?> value="1" />
+        <input type="checkbox" class="checkbox" id="<?php echo $this->get_field_id("navigation"); ?>" name="<?php echo $this->get_field_name("navigation"); ?>" <?php array_key_exists('navigation', $instance) ? checked( (bool) $instance["navigation"], true ): null; ?> value="1" />
         <label for="<?php echo $this->get_field_id("navigation"); ?>"><?php _e('Arrows navigation', 'woocommerce-products-flexslider-all-in-one'); ?></label>
     </p>  
   
@@ -328,15 +328,15 @@ jQuery(function() {
         <strong>--- <?php _e('Animation options', 'woocommerce-products-flexslider-all-in-one') ?> ---</strong>
     </p>      
     <p>
-        <input type="checkbox" class="checkbox" id="<?php echo $this->get_field_id("auto_start"); ?>" name="<?php echo $this->get_field_name("auto_start"); ?>" <?php checked( (bool) $instance["auto_start"], true ); ?> value="1" />
+        <input type="checkbox" class="checkbox" id="<?php echo $this->get_field_id("auto_start"); ?>" name="<?php echo $this->get_field_name("auto_start"); ?>" <?php array_key_exists('auto_start', $instance) ? checked( (bool) $instance["auto_start"], true ): null; ?> value="1" />
         <label for="<?php echo $this->get_field_id("auto_start"); ?>"><?php _e('Auto start', 'woocommerce-products-flexslider-all-in-one'); ?></label>
     </p>   
     <p>
-        <input type="checkbox" class="checkbox" id="<?php echo $this->get_field_id("animation_loop"); ?>" name="<?php echo $this->get_field_name("animation_loop"); ?>" <?php checked( (bool) $instance["animation_loop"], true ); ?> value="1"/>
+        <input type="checkbox" class="checkbox" id="<?php echo $this->get_field_id("animation_loop"); ?>" name="<?php echo $this->get_field_name("animation_loop"); ?>" <?php array_key_exists('animation_loop', $instance) ? checked( (bool) $instance["animation_loop"], true ): null; ?> value="1"/>
         <label for="<?php echo $this->get_field_id("animation_loop"); ?>"><?php _e('Animation loop', 'woocommerce-products-flexslider-all-in-one'); ?></label>
     </p> 
     <p>
-        <input type="checkbox" class="checkbox" id="<?php echo $this->get_field_id("pause_on_hover"); ?>" name="<?php echo $this->get_field_name("pause_on_hover"); ?>" <?php checked( (bool) $instance["pause_on_hover"], true ); ?> value="1"/>
+        <input type="checkbox" class="checkbox" id="<?php echo $this->get_field_id("pause_on_hover"); ?>" name="<?php echo $this->get_field_name("pause_on_hover"); ?>" <?php array_key_exists('pause_on_hover', $instance) ? checked( (bool) $instance["pause_on_hover"], true ): null; ?> value="1"/>
         <label for="<?php echo $this->get_field_id("pause_on_hover"); ?>"><?php _e('Animation pause on hover', 'woocommerce-products-flexslider-all-in-one'); ?></label>
     </p>       
     <p>
