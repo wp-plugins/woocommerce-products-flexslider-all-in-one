@@ -218,7 +218,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
                <tr>
                     <td align="left"><?php _e('Show price', 'woocommerce-products-flexslider-all-in-one'); ?>:</td>
                     <td>
-                        <input type="checkbox" value="1" name="show_price" id="show_title" checked="checked">
+                        <input type="checkbox" value="1" name="show_price" id="show_price" checked="checked">
                     </td>
                 </tr>
                 <tr>

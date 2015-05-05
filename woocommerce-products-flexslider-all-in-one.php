@@ -3,7 +3,7 @@
 Plugin Name: WooCommerce Products FlexSlider all in one
 Plugin URI: http://www.teastudio.pl/produkt/woocommerce-products-flexslider-all-in-one/
 Description: WooCommerce Products FlexSlider all in one is a widget to show new, featured or popular products in Flexslider
-Version: 1.0.6
+Version: 1.0.7
 Author: Marcin Gierada
 Author URI: http://www.teastudio.pl/
 Author Email: m.gierada@teastudio.pl
@@ -29,18 +29,31 @@ function ap_action_init()
     load_plugin_textdomain('woocommerce-products-flexslider-all-in-one', false, dirname(plugin_basename( __FILE__ )) .  '/i18n/languages/');
 }
 
+
+function woo_products_flexslider_all_in_one_admin_notice() {
+        /*
+         * depreaced
+         */
+        echo '<div class="error"><p>'. __('Sorry, <strong>WooCommerce FlexSlider all in one</strong> plugin in deprecated. It is recommended that you install the newer - <strong>WooCommerce Products Carousel all in one</strong> from <a href="https://wordpress.org/plugins/" title="See more info about WooCommerce Products Carousel all in one" target="_blank">wordpress.org</a>', 'widget_woo_products_flexslider_all_in_one') .'</p></div>'; 
+}
+
 /**
  * Check if WooCommerce is active
  **/
 if (in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_option('active_plugins')))) 
 {
+   
     ob_start();
 
+
     //include required files based on admin or site
-    if (is_admin()) 
+    if (is_admin()) {     
+
+        add_action('admin_notices', 'woo_products_flexslider_all_in_one_admin_notice');
         add_action('init', 'woo_products_flexslider_all_in_one_button');	
-    else 
+    } else {
         require_once("shortcode-decode.class.php");
+    }
 
     /*
      * ajax page for shortcode generator
@@ -138,7 +151,7 @@ class WooCommerceProductsFlexsliderAllInOneWidget extends WP_Widget
 
     function wooCommerceProductsFlexsliderAllInOneWidget() {
         $widget_ops = array('classname' => 'widget_woo_products_flexslider_all_in_one','description' => __('Show new, featured or popular products in FlexSlider', 'woocommerce-products-flexslider-all-in-one'));
-        $this->WP_Widget('woo_products_flexslider_all_in_one', __('WooCommerce Products FlexSlider All In One', 'woocommerce-products-flexslider-all-in-one'), $widget_ops);
+        $this->WP_Widget('woo_products_flexslider_all_in_one', __('WooCommerce Products FlexSlider all in one', 'woocommerce-products-flexslider-all-in-one'), $widget_ops);
     }
 
     function widget( $args, $instance ) {

@@ -3,7 +3,7 @@ Contributors: teastudio.pl
 Donate link: http://www.teastudio.pl/
 Tags: slider, flexslider, woocommerce flexslider, woocommerce slider, products slider, woocommerce products
 Requires at least: 3.6
-Tested up to: 3.9.1
+Tested up to: 4.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -39,7 +39,7 @@ I will be grateful for opinions and reviews.
 3. Activate WooCommerce Products Flexslider all in one in the "Plugins" using the "Activate" link.
 
 == Frequently Asked Questions ==
-Do not hesitate to ask any questions.
+If you've got any questions, don't hesitate to ask.
 
 == Screenshots ==
 1. Widget configuration
@@ -47,6 +47,16 @@ Do not hesitate to ask any questions.
 3. WYSIWYG button
 
 == Changelog ==
+= 1.0.7 =
+Plugin is deprecated. Please use newer WooCommerce Products Carousel all in one, from wordpress.org
+= 1.0.6 =
+Fixed error for empty variable
+= 1.0.5 =
+Fixed problem with correct display shortcode
+= 1.0.4 =
+Fixed errors with empty variables
+= 1.0.3 =
+Fixed name for "show" attribute
 = 1.0.2 =
 new translate added - Serbian
 = 1.0.1 =
