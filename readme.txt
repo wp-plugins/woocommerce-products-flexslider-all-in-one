@@ -10,7 +10,10 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 WooCommerce Products FlexSlider all in one is a widget and shortcode generator to show new, featured or popular products in Flexslider
 == Description ==
 
-**WooCommerce Products Flexslider all in one** will allow you to create custom shortcode, or add widget that display Flexslider of WooCommerce products (new, featured or popular).
+**This product is no longer maintained.**
+Please install the successor [WooCommerce Products Carousel all in one](https://wordpress.org/plugins/woocommerce-products-carousel-all-in-one/).
+
+**WooCommerce Products Flexslider all in one** - Advanced WordPress plugin, which allows you to insert the product slider from the store based on the WooCommerce. In addition to defining the basic parameters of the slider, you can not only specify transition type and animation duration, but also product categories or product type: recommended, newest or bestsellers.
 
 = Requires =
 * WooCommerce 2.0.x
@@ -22,7 +25,12 @@ WooCommerce Products FlexSlider all in one is a widget and shortcode generator t
 * Polish (pl_PL)
 * Serbian (sr_RS)
 
-For more information, check out plugin page at [Teastudio.pl](http://www.teastudio.pl/produkt/woocommerce-products-flexslider-all-in-one/).
+
+For more information, check out [PLUGIN HOMEPAGE](http://www.teastudio.pl/en/product/product/woocommerce-products-flexslider-all-in-one/).
+
+= DEMO =
+You can see the plugin in action on [DEMO PAGE](http://wordpress.teastudio.pl/category/product/woocommerce-products-flexslider-all-in-one/)
+
 
 I will be grateful for opinions and reviews.
 
